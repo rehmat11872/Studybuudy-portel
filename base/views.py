@@ -81,3 +81,5 @@ def deleteRoom(request, pk):
         'obj': room
     }    
     return render(request, 'delete.html', context)
+
+
