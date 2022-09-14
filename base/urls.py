@@ -7,6 +7,7 @@ urlpatterns = [
     path('create_room/', views.CreateRoom, name='create_room'),
     path('update_room/<str:pk>/', views.UpdateRoom, name='update_room'),
     path('delete_room/<str:pk>/', views.deleteRoom, name='delete_room'),
+    path('delete-message/<str:pk>/', views.deleteMessage, name="delete-message"),
 
   
 ]
